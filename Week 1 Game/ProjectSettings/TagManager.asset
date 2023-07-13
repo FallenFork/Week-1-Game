@@ -6,6 +6,9 @@ TagManager:
   tags:
   - NPC 1
   - Portkey
+  - Treasure
+  - Line 1
+  - Line 2
   layers:
   - Default
   - TransparentFX
