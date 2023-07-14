@@ -61,6 +61,7 @@ public class EndGame : MonoBehaviour
 
     public void NoneQuestState() {
         Debug.Log("*** NPC: Hello traveller. Do you wanna get rich? Go forth and retrieve a treasure. And, I'll teach you how to invest in stock with that treasure if you give me a percentage of it. You can start by rotating behind. Good luck! ***");
+        Destroy(GameObject.Find("PreGameWall"));
         state = QuestState.InProgress;
     }
 

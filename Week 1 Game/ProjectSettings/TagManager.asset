@@ -10,8 +10,10 @@ TagManager:
   - Line 1
   - Line 2
   - PaintBall
-  - Waypoint
   - muzzle
+  - GuardTrigger
+  - WaypointRight
+  - WaypointLeft
   layers:
   - Default
   - TransparentFX
