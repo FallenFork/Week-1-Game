@@ -37,11 +37,11 @@ public class EndGame : MonoBehaviour
         }
 
         if (other.tag == "Line 1") {
-            Debug.Log("*** Guard: You have made it past the maze. Your next task is to complete this puzzle. ***");
+            Debug.Log("*** Guard: You have made it past the maze. Your next task is to push the blocks to their designated spots based on their color. ***");
         }
 
         if (other.tag == "Line 2") {
-            Debug.Log("*** Guard: Congratulations on solving the puzzle. The next task is dangerous. You'll need to dodge the bullets of the other guards to make it past this stage of your venture. ***");
+            Debug.Log("*** Guard: You have solved the puzzle. The next task is dangerous. You'll need to dodge the bullets of the other guards to make it past this stage of your venture. ***");
         }
     }
 
@@ -60,7 +60,7 @@ public class EndGame : MonoBehaviour
     }
 
     public void NoneQuestState() {
-        Debug.Log("*** NPC: Hello traveller. Do you wanna get rich? Go forth and retrieve a treasure. And, I'll teach you how to invest in stock with that treasure if you give me a percentage of it. You can start by rotating behind. Good luck! ***");
+        Debug.Log("*** NPC: Hello traveller. Do you wish to get rich? Go forth and retrieve a treasure. And, I'll teach you how to invest in stock with that treasure if you give me a percentage of it. You can start by rotating behind. Good luck! ***");
         state = QuestState.InProgress;
     }
 

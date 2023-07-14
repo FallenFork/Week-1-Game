@@ -12,6 +12,9 @@ TagManager:
   - PaintBall
   - Waypoint
   - muzzle
+  - Block
+  - Wall
+  - PuzzleTile
   layers:
   - Default
   - TransparentFX
